@@ -1,0 +1,17 @@
+body {
+  font-family: $mainFont;
+  color: $primery-text-color;
+  background-color: $primery-white-color;
+  padding-top: 80px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
