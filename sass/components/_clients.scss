@@ -1,11 +1,13 @@
 .clients {
   display: flex;
-  gap: 30px;
 }
 
 .clients__item {
   width: calc((100% - 150px) / 6);
   height: 92px;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .clients__link {

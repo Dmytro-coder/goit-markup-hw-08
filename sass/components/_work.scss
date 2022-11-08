@@ -2,12 +2,11 @@
   display: flex;
 }
 
-.work .work__item + .work__item {
-  margin-left: 30px;
-}
-
 .work__item {
   position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
+  }
 }
 
 .work__title {
