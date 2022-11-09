@@ -6,14 +6,11 @@
 .site-nav {
   display: flex;
   margin-left: 93px;
+  gap: 50px;
 }
 
-.site-nav__item:not(:last-child) {
-  margin-right: 50px;
-}
-
-// .site-nav .site-nav__item + .site-nav__item {
-//   margin-left: 50px;
+// .site-nav__item:not(:last-child) {
+//   margin-right: 50px;
 // }
 
 .site-nav__link {

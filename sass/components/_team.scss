@@ -2,11 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 30px;
 }
 
-.team__item:not(:last-child) {
-  margin-right: 30px;
-}
+// .team__item:not(:last-child) {
+//   margin-right: 30px;
+// }
 
 img {
   display: block;

@@ -398,10 +398,7 @@ footer .logo span {
   display: -ms-flexbox;
   display: flex;
   margin-left: 93px;
-}
-
-.site-nav__item:not(:last-child) {
-  margin-right: 50px;
+  gap: 50px;
 }
 
 .site-nav__link {
@@ -564,13 +561,11 @@ footer .logo span {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 30px;
 }
 
 .work__item {
   position: relative;
-}
-.work__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .work__title {
@@ -608,10 +603,7 @@ footer .logo span {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-.team__item:not(:last-child) {
-  margin-right: 30px;
+  gap: 30px;
 }
 
 img {
@@ -665,14 +657,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 30px;
 }
 
 .clients__item {
   width: calc((100% - 150px) / 6);
   height: 92px;
-}
-.clients__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .clients__link {
@@ -1348,14 +1338,12 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 30px;
 }
 
 .clients__item {
   width: calc((100% - 150px) / 6);
   height: 92px;
-}
-.clients__item:not(:last-child) {
-  margin-right: 30px;
 }
 
 .clients__link {
