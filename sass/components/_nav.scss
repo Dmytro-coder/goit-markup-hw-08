@@ -28,19 +28,18 @@
   &:focus {
     color: $accent-color;
   }
-}
-
-.site-nav__link--current {
-  color: $accent-color;
-  &::after {
-    position: absolute;
-    content: '';
-    height: 4px;
-    left: 0;
-    bottom: -1px;
-    right: 0;
-    background: $accent-color;
-    border-radius: 2px;
+  &--current {
+    color: $accent-color;
+    &::after {
+      position: absolute;
+      content: '';
+      height: 4px;
+      left: 0;
+      bottom: -1px;
+      right: 0;
+      background: $accent-color;
+      border-radius: 2px;
+    }
   }
 }
 
