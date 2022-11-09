@@ -46,13 +46,18 @@
   &:focus ~ .form__icon {
     fill: $accent-color;
   }
+  &::placeholder {
+    @include fonts-properties($fw: inherit, $fs: 16px, $lh: 1.25, $ls: 0.03em);
+    align-items: center;
+    color: rgba(117, 117, 117, 0.5);
+  }
 }
 
-.form__input::placeholder {
-  @include fonts-properties($fw: inherit, $fs: 16px, $lh: 1.25, $ls: 0.03em);
-  align-items: center;
-  color: rgba(117, 117, 117, 0.5);
-}
+// .form__input::placeholder {
+//   @include fonts-properties($fw: inherit, $fs: 16px, $lh: 1.25, $ls: 0.03em);
+//   align-items: center;
+//   color: rgba(117, 117, 117, 0.5);
+// }
 
 .form__send textarea {
   margin-bottom: 20px;

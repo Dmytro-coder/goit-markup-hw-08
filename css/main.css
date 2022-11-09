@@ -1064,7 +1064,6 @@ img {
 .form__input:hover ~ .form__icon, .form__input:focus ~ .form__icon {
   fill: #2196f3;
 }
-
 .form__input::-webkit-input-placeholder {
   font-weight: inherit;
   font-size: 16px;
@@ -1074,7 +1073,6 @@ img {
           align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__input::-moz-placeholder {
   font-weight: inherit;
   font-size: 16px;
@@ -1083,7 +1081,6 @@ img {
   align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__input:-ms-input-placeholder {
   font-weight: inherit;
   font-size: 16px;
@@ -1093,7 +1090,6 @@ img {
       align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__input::-ms-input-placeholder {
   font-weight: inherit;
   font-size: 16px;
@@ -1103,7 +1099,6 @@ img {
       align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .form__input::placeholder {
   font-weight: inherit;
   font-size: 16px;
