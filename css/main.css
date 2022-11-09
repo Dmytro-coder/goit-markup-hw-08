@@ -1033,6 +1033,10 @@ img {
   line-height: 1.17;
   letter-spacing: 0.01em;
 }
+.form__send textarea {
+  margin-bottom: 20px;
+  margin-top: 4px;
+}
 
 .form-field {
   position: relative;
@@ -1110,11 +1114,6 @@ img {
   color: rgba(117, 117, 117, 0.5);
 }
 
-.form__send textarea {
-  margin-bottom: 20px;
-  margin-top: 4px;
-}
-
 .comment__field {
   display: block;
   width: 100%;
@@ -1140,7 +1139,6 @@ img {
   -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
           box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
-
 .comment__field::-webkit-input-placeholder {
   font-weight: inherit;
   font-size: 12px;
@@ -1150,7 +1148,6 @@ img {
           align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .comment__field::-moz-placeholder {
   font-weight: inherit;
   font-size: 12px;
@@ -1159,7 +1156,6 @@ img {
   align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .comment__field:-ms-input-placeholder {
   font-weight: inherit;
   font-size: 12px;
@@ -1169,7 +1165,6 @@ img {
       align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .comment__field::-ms-input-placeholder {
   font-weight: inherit;
   font-size: 12px;
@@ -1179,7 +1174,6 @@ img {
       align-items: center;
   color: rgba(117, 117, 117, 0.5);
 }
-
 .comment__field::placeholder {
   font-weight: inherit;
   font-size: 12px;
@@ -1221,7 +1215,6 @@ img {
   color: #757575;
   fill: #ffffff;
 }
-
 .form-field__terms > a {
   color: #2196f3;
 }
