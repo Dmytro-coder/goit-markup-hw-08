@@ -52,15 +52,15 @@
   .portfolio__link:focus & {
     transform: translateY(0%);
   }
-}
 
-.portfolio__overlay--description {
-  padding: 63px 24px;
-  margin-top: 0;
-  margin-bottom: 0;
+  &--description {
+    padding: 63px 24px;
+    margin-top: 0;
+    margin-bottom: 0;
 
-  @include fonts-properties($fw: inherit, $fs: 18px, $lh: 1.56, $ls: 0.03em);
-  color: $primery-white-color;
+    @include fonts-properties($fw: inherit, $fs: 18px, $lh: 1.56, $ls: 0.03em);
+    color: $primery-white-color;
+  }
 }
 
 .portfolio__description {

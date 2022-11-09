@@ -8,9 +8,13 @@
   margin-left: 93px;
 }
 
-.site-nav .site-nav__item + .site-nav__item {
-  margin-left: 50px;
+.site-nav__item:not(:last-child) {
+  margin-right: 50px;
 }
+
+// .site-nav .site-nav__item + .site-nav__item {
+//   margin-left: 50px;
+// }
 
 .site-nav__link {
   display: block;
@@ -47,11 +51,12 @@
   display: flex;
   align-items: center;
   margin-left: auto;
+  gap: 50px;
 }
 
-.contact-nav .contact-nav__item + .contact-nav__item {
-  margin-left: 50px;
-}
+// .contact-nav__item:not(:last-child) {
+//   margin-right: 50px;
+// }
 
 .contact-nav__link {
   display: inline-flex;
