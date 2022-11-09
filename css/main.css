@@ -312,6 +312,17 @@ a {
   color: inherit;
 }
 
+header,
+section,
+footer,
+.backdrop {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -337,7 +348,6 @@ a {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
 }
