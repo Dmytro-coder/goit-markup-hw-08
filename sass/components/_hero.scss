@@ -1,6 +1,7 @@
 .hero {
-  padding-top: 200px;
-  padding-bottom: 200px;
+  // padding-top: 200px;
+  // padding-bottom: 200px;
+  padding: 118px 0px;
 
   background-color: $primery-bg-color;
   text-align: center;
@@ -14,19 +15,27 @@
   background-size: cover;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/hero.jpg');
+
+  @media screen and (min-width: $desktop) {
+    padding: 200px 0px;
+  }
 }
 
 .hero__title {
   color: $primery-white-color;
-  margin-top: 0px;
-  margin-left: auto;
-  margin-bottom: 30px;
-  margin-right: auto;
-  width: 696px;
-
-  @include fonts-properties($fw: 900, $fs: 44px, $lh: 1.36, $ls: 0.06em);
-
+  margin: 0 auto 30px auto;
+  @include fonts-properties($fw: 900, $fs: 26px, $lh: 1.61, $ls: 0.06em);
+  text-align: center;
   text-transform: uppercase;
+
+  @media screen and (min-width: $tablet) {
+    width: 360px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    @include fonts-properties($fw: 900, $fs: 44px, $lh: 1.36, $ls: 0.06em);
+    width: 696px;
+  }
 }
 
 .hero__button {
