@@ -1,12 +1,19 @@
 .header__nav {
   display: flex;
+  gap: 95px;
   align-items: center;
+  @media screen and (min-width: $tablet) {
+    margin-right: auto;
+  }
 }
 
 .site-nav {
-  display: flex;
-  margin-left: 93px;
-  gap: 50px;
+  display: none;
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    margin-left: 93px;
+    gap: 50px;
+  }
 }
 
 // .site-nav__item:not(:last-child) {
@@ -45,21 +52,40 @@
 }
 
 .contact-nav {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
-  gap: 50px;
+  display: none;
+  @media screen and (min-width: $tablet) {
+    display: block;
+  }
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    padding: 21px 0;
+  }
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    gap: 25px;
+  }
 }
 
-// .contact-nav__item:not(:last-child) {
-//   margin-right: 50px;
-// }
+.contacts__item {
+  @include fonts-properties($fw: 500, $fs: 12px, $lh: 1.16, $ls: 0.02em);
+
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    &:not(:last-child) {
+      margin-bottom: 10px;
+    }
+  }
+
+  @media screen and (min-width: $desktop) {
+    font-size: 14px;
+    line-height: 1.14;
+  }
+}
 
 .contact-nav__link {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  transition: color $transition;
 
   @include fonts-properties($fw: 500, $fs: 14px, $lh: 1.14, $ls: 0.02em);
   color: $primery-text-color;
@@ -70,9 +96,26 @@
   &:focus {
     color: $accent-color;
   }
+
+  @media screen and (min-width: $desktop) {
+    padding: 32px 0;
+  }
 }
 
 .contact__icon {
   margin-right: 10px;
   fill: currentColor;
+}
+
+.contact__icon--email {
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    width: 14px;
+    height: 10px;
+  }
+}
+.contact__icon--tel {
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    width: 10px;
+    height: 14px;
+  }
 }

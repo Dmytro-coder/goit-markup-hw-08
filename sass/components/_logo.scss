@@ -7,7 +7,8 @@ header .logo {
     color: $black-color;
   }
   @media screen and (min-width: $desktop) {
-    @include fonts-properties($fw: 700, $fs: 26px, $lh: 1.19, $ls: 0.03em);
+    font-size: 26px;
+    line-height: 1.19;
   }
 }
 
@@ -21,6 +22,7 @@ footer .logo {
     color: $primery-white-color;
   }
   @media screen and (min-width: $desktop) {
-    @include fonts-properties($fw: 700, $fs: 26px, $lh: 1.19, $ls: 0.03em);
+    font-size: 26px;
+    line-height: 1.19;
   }
 }
