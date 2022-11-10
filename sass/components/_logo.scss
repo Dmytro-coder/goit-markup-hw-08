@@ -2,10 +2,12 @@ header .logo {
   color: $accent-color;
   text-decoration: none;
   font-family: $secondaryFont;
-  @include fonts-properties($fw: 700, $fs: 26px, $lh: 1.19, $ls: 0.03em);
-
+  @include fonts-properties($fw: 700, $fs: 24px, $lh: 1.17, $ls: 0.03em);
   span {
     color: $black-color;
+  }
+  @media screen and (min-width: $desktop) {
+    @include fonts-properties($fw: 700, $fs: 26px, $lh: 1.19, $ls: 0.03em);
   }
 }
 
@@ -13,9 +15,12 @@ footer .logo {
   color: $accent-color;
   text-decoration: none;
   font-family: $secondaryFont;
-  @include fonts-properties($fw: 700, $fs: 26px, $lh: 1.19, $ls: 0.03em);
+  @include fonts-properties($fw: 700, $fs: 24px, $lh: 1.17, $ls: 0.03em);
 
   span {
     color: $primery-white-color;
+  }
+  @media screen and (min-width: $desktop) {
+    @include fonts-properties($fw: 700, $fs: 26px, $lh: 1.19, $ls: 0.03em);
   }
 }
