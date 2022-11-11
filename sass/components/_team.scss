@@ -1,8 +1,28 @@
 .team {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 30px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  // gap: 30px;
+
+  @media screen and (min-width: $tablet) {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+}
+
+.team__item {
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  @media screen and (min-width: $tablet) {
+    flex-basis: calc((100% - 30px) / 2);
+  }
+  @media screen and (min-width: $desktop) {
+    flex-basis: calc((100% - 90px) / 4);
+  }
 }
 
 // .team__item:not(:last-child) {
