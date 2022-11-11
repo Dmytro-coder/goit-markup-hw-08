@@ -85,7 +85,7 @@
   @include fonts-properties($fw: 500, $fs: 34px, $lh: 1.18, $ls: 0.02em);
   color: $accent-color;
   padding-bottom: 32px;
-  @include for-size(mobile-end) {
+  @media screen and (max-width: 440px) {
     font-size: 26px;
   }
 }

@@ -1,8 +1,28 @@
+// .section {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+//   &--no-padding-top {
+//     padding-top: 0;
+//   }
+//   &--secondary-bgc {
+//     background-color: $secondary-bg-color;
+//   }
+// }
+
 .section {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 60px 0;
+  background-color: $primery-white-color;
+
+  @media screen and (min-width: $desktop) {
+    padding: 94px 0;
+  }
+
   &--no-padding-top {
-    padding-top: 0;
+    display: none;
+    @media screen and (min-width: $desktop) {
+      display: block;
+      padding-top: 0;
+    }
   }
   &--secondary-bgc {
     background-color: $secondary-bg-color;

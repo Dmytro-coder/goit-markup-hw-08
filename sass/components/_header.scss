@@ -3,13 +3,24 @@
   background: $primery-white-color;
   z-index: 1;
 
-  // position: fixed;
-  // width: 100%;
-  // top: 0;
-  // left: 0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
 }
 
 .header__container {
   display: flex;
   align-items: center;
+}
+
+.header__mobile-menu {
+  width: 40px;
+  height: 40px;
+  margin-left: auto;
+  border: none;
+  background-color: inherit;
+  @media screen and (min-width: $tablet) {
+    display: none;
+  }
 }
