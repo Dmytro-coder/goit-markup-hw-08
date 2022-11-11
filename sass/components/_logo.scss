@@ -12,6 +12,19 @@ header .logo {
   }
 }
 
+.header__logo {
+  padding: 16px 0;
+
+  @media screen and (min-width: $tablet) {
+    // margin-right: 88px;
+    padding: 26px 0;
+  }
+  @media screen and (min-width: $desktop) {
+    // margin-right: 92px;
+    padding: 24px 0 25px;
+  }
+}
+
 footer .logo {
   color: $accent-color;
   text-decoration: none;

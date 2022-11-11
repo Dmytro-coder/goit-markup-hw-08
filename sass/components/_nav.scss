@@ -67,7 +67,7 @@
   }
 }
 
-.contacts__item {
+.contact-nav__item {
   @include fonts-properties($fw: 500, $fs: 12px, $lh: 1.16, $ls: 0.02em);
 
   @media screen and (min-width: $tablet) and (max-width: 1199px) {

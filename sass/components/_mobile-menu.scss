@@ -39,14 +39,18 @@
 
 .mobile-menu__btn-close {
   position: absolute;
-  @extend %btn-close;
+  position: absolute;
+  background-color: $primery-white-color;
+  fill: #000;
+  transition: fill $transition;
+  cursor: pointer;
   top: 10px;
   right: 15px;
   width: 40px;
   height: 40px;
   border: none;
   &:hover {
-    fill: $designcolor;
+    fill: $accent-color;
   }
 }
 
@@ -61,10 +65,10 @@
 .mobile-menu__link {
   display: block;
   @include fonts-properties($fw: 500, $fs: 40px, $lh: 1.18, $ls: 0.02em);
-  color: $titlecolor;
+  color: $title-text-color;
   transition: color $transition;
   &--current {
-    color: $designcolor;
+    color: $accent-color;
   }
 
   @media screen and (max-width: 440px) {
@@ -114,7 +118,7 @@
 
 .mobile-menu__socials-link {
   @include fonts-properties($fw: 500, $fs: 18px, $lh: 1.22, $ls: 0.02em);
-  color: $designcolor;
+  color: $accent-color;
   @media screen and (max-width: 440px) {
     font-size: 12px;
   }

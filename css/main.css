@@ -295,10 +295,11 @@ summary {
 }
 
 body {
+  width: 100%;
+  margin: 0 auto;
   font-family: "Roboto", sans-serif;
   color: #757575;
   background-color: #ffffff;
-  padding-top: 80px;
 }
 
 ul {
@@ -326,17 +327,6 @@ h5,
 h6 {
   margin: 0;
   padding: 0;
-}
-
-header,
-section,
-footer,
-.backdrop {
-  display: none;
-}
-
-.block {
-  display: block;
 }
 
 .section {
@@ -385,10 +375,6 @@ footer,
   border-bottom: 1px solid #ececec;
   background: #ffffff;
   z-index: 1;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
 }
 
 .header__container {
@@ -416,6 +402,20 @@ header .logo span {
   header .logo {
     font-size: 26px;
     line-height: 1.19;
+  }
+}
+
+.header__logo {
+  padding: 16px 0;
+}
+@media screen and (min-width: 768px) {
+  .header__logo {
+    padding: 26px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    padding: 24px 0 25px;
   }
 }
 
@@ -523,19 +523,19 @@ footer .logo span {
   }
 }
 
-.contacts__item {
+.contact-nav__item {
   font-weight: 500;
   font-size: 12px;
   line-height: 1.16;
   letter-spacing: 0.02em;
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
-  .contacts__item:not(:last-child) {
+  .contact-nav__item:not(:last-child) {
     margin-bottom: 10px;
   }
 }
 @media screen and (min-width: 1200px) {
-  .contacts__item {
+  .contact-nav__item {
     font-size: 14px;
     line-height: 1.14;
   }
