@@ -18,13 +18,14 @@
     flex-wrap: wrap;
     row-gap: 60px;
   }
+
   @media screen and (min-width: $desktop) {
-    // justify-content: flex-start;
-    // flex-wrap: nowrap;
-    // text-align: start;
-    display: flex;
-    align-items: baseline;
-    text-align: left;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    text-align: start;
+    // display: flex;
+    // align-items: baseline;
+    // text-align: left;
   }
 }
 
