@@ -5,15 +5,13 @@
 }
 
 .footer__container {
-  // display: flex;
-  // align-items: baseline;
   text-align: center;
 
   @media screen and (min-width: $tablet) {
     display: flex;
     align-items: baseline;
   }
-  @media screen and (min-width: $tablet) and (max-width: 767px) {
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
     justify-content: space-around;
     flex-wrap: wrap;
     row-gap: 60px;
@@ -23,9 +21,6 @@
     justify-content: flex-start;
     flex-wrap: nowrap;
     text-align: start;
-    // display: flex;
-    // align-items: baseline;
-    // text-align: left;
   }
 }
 
@@ -35,8 +30,15 @@
   }
   @media screen and (min-width: $desktop) {
     margin-right: 70px;
-    flex-grow: 1;
   }
+
+  // @media screen and (max-width: $tablet) {
+  //   margin-bottom: 60px;
+  // }
+  // @media screen and (min-width: $desktop) {
+  //   margin-right: 70px;
+  //   flex-grow: 1;
+  // }
 }
 
 .address__item {
@@ -72,11 +74,7 @@
 
 /* Footer social */
 .social__container {
-  // width: 206px;
-  // height: 80px;
-  // margin-right: 93px;
-
-  @media screen and (max-width: 767px) {
+  @media screen and (max-width: $tablet) {
     margin-bottom: 60px;
   }
   @media screen and (min-width: $desktop) {
@@ -153,9 +151,6 @@
 }
 
 .send input {
-  // width: 358px;
-  // height: 50px;
-  // margin: 0;
   margin-bottom: 20px;
   padding: 15px 16px;
   display: block;
@@ -182,10 +177,9 @@
     color: rgba(255, 255, 255, 0.6);
   }
 
-  // @media screen and (min-width: $tablet) and (max-width: 767px) {
-  //   width: 450px;
-
-  // }
+  @media screen and (min-width: $tablet) and (max-width: 1199px) {
+    margin: 0 auto 20px;
+  }
   @media screen and (min-width: $desktop) {
     width: 358px;
     height: 50px;
@@ -200,7 +194,6 @@
 
   @extend %button;
   padding: 10px 28px;
-  // margin-left: 12px;
   width: 200px;
   @media screen and (min-width: $desktop) {
     margin-left: 12px;
