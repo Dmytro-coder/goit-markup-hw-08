@@ -146,14 +146,19 @@
 }
 
 .send {
-  display: flex;
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
 }
 
 .send input {
-  width: 358px;
-  height: 50px;
-  margin: 0;
+  // width: 358px;
+  // height: 50px;
+  // margin: 0;
+  margin-bottom: 20px;
   padding: 15px 16px;
+  display: block;
+  width: 100%;
   color: $primery-white-color;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -173,6 +178,15 @@
     align-items: center;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
+  }
+
+  @media screen and (min-width: $tablet) and (max-width: 767px) {
+    width: 450px;
+  }
+  @media screen and (min-width: $desktop) {
+    width: 358px;
+    height: 50px;
+    margin: 0;
   }
 }
 
