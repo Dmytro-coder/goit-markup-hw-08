@@ -158,7 +158,8 @@
   margin-bottom: 20px;
   padding: 15px 16px;
   display: block;
-  width: 100%;
+  width: 450px;
+  height: 50px;
   color: $primery-white-color;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -180,9 +181,10 @@
     color: rgba(255, 255, 255, 0.6);
   }
 
-  @media screen and (min-width: $tablet) and (max-width: 767px) {
-    width: 450px;
-  }
+  // @media screen and (min-width: $tablet) and (max-width: 767px) {
+  //   width: 450px;
+
+  // }
   @media screen and (min-width: $desktop) {
     width: 358px;
     height: 50px;
@@ -193,11 +195,15 @@
 .footer__button {
   display: inline-flex;
   justify-content: center;
+  align-items: center;
 
   @extend %button;
   padding: 10px 28px;
-  margin-left: 12px;
-  min-width: 200px;
+  // margin-left: 12px;
+  width: 200px;
+  @media screen and (min-width: $desktop) {
+    margin-left: 12px;
+  }
 }
 
 .send__icon {

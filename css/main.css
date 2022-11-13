@@ -1146,7 +1146,8 @@ img {
   margin-bottom: 20px;
   padding: 15px 16px;
   display: block;
-  width: 100%;
+  width: 450px;
+  height: 50px;
   color: #ffffff;
   background-color: inherit;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -1202,11 +1203,6 @@ img {
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
-@media screen and (min-width: 768px) and (max-width: 767px) {
-  .send input {
-    width: 450px;
-  }
-}
 @media screen and (min-width: 1200px) {
   .send input {
     width: 358px;
@@ -1222,9 +1218,16 @@ img {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 10px 28px;
-  margin-left: 12px;
-  min-width: 200px;
+  width: 200px;
+}
+@media screen and (min-width: 1200px) {
+  .footer__button {
+    margin-left: 12px;
+  }
 }
 
 .send__icon {
