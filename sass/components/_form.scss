@@ -7,9 +7,13 @@
   margin-bottom: 12px;
   margin-top: 0;
 
-  @include fonts-properties($fw: 700, $fs: 20px, $lh: 1.15, $ls: 0.03em);
+  @include fonts-properties($fw: 700, $fs: 20px, $lh: 1.5, $ls: 0.03em);
   text-align: center;
   color: $title-text-color;
+
+  @media screen and (min-width: $desktop) {
+    line-height: 1.15;
+  }
 }
 
 .form__send {
@@ -102,12 +106,15 @@
   gap: 7px;
   margin-bottom: 30px;
 
-  @include fonts-properties($fw: inherit, $fs: 14px, $lh: 1.71, $ls: 0.03em);
+  @include fonts-properties($fw: inherit, $fs: 12px, $lh: 1.71, $ls: 0.03em);
   color: $primery-text-color;
   fill: $primery-white-color;
 
   & > a {
     color: $accent-color;
+  }
+  @media screen and (min-width: $desktop) {
+    font-size: 14px;
   }
 }
 

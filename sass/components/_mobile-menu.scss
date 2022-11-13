@@ -9,14 +9,14 @@
     height: 100%;
     z-index: 999;
     background-color: $primery-white-color;
-    transform: translateX(100%);
+    transform: translateY(100%);
     transition: transform $transition, opacity $transition, visibility $transition;
   }
   &.is-open {
     opacity: 1;
     visibility: visible;
     pointer-events: initial;
-    transform: translateX(0);
+    transform: translateY(0);
   }
 }
 
