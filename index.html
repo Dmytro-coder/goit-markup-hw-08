@@ -199,33 +199,90 @@
           <h2 class="section__title">Чим ми займаємося</h2>
           <ul class="work">
             <li class="work__item">
-              <img
-                src="./images/desktop/work/box1-370.jpg"
-                alt="Користувач працює на десктопі"
-                width="370"
-                height="294"
-                class="photo"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/work/box1-370.webp  1x,
+                    ./images/desktop/work/box1-740.webp  2x,
+                    ./images/desktop/work/box1-1110.webp 3x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/work/box1-370.jpg  1x,
+                    ./images/desktop/work/box1-740.jpg  2x,
+                    ./images/desktop/work/box1-1110.jpg 3x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/desktop/work/box1-370.jpg"
+                  alt="Користувач працює на десктопі"
+                  width="370"
+                  height="294"
+                  class="photo"
+                />
+              </picture>
               <h3 class="work__title">Десктопні додатки</h3>
             </li>
             <li class="work__item">
-              <img
-                src="./images/desktop/work/box2-370.jpg"
-                alt="Користувач працює на смартфоні"
-                width="370"
-                height="294"
-                class="photo"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/work/box2-370.webp  1x,
+                    ./images/desktop/work/box2-740.webp  2x,
+                    ./images/desktop/work/box2-1110.webp 3x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/work/box2-370.jpg  1x,
+                    ./images/desktop/work/box2-740.jpg  2x,
+                    ./images/desktop/work/box2-1110.jpg 3x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/desktop/work/box2-370.jpg"
+                  alt="Користувач працює на смартфоні"
+                  width="370"
+                  height="294"
+                  class="photo"
+                />
+              </picture>
               <h3 class="work__title">Мобільні додатки</h3>
             </li>
             <li class="work__item">
-              <img
-                src="./images/desktop/work/box3-370.jpg"
-                alt="Користувач працює на планшеті"
-                width="370"
-                height="294"
-                class="photo"
-              />
+              <picture>
+                <source
+                  srcset="
+                    ./images/desktop/work/box3-370.webp  1x,
+                    ./images/desktop/work/box3-740.webp  2x,
+                    ./images/desktop/work/box3-1110.webp 3x
+                  "
+                  type="image/webp"
+                  media="(min-width: 1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/desktop/work/box3-370.jpg  1x,
+                    ./images/desktop/work/box3-740.jpg  2x,
+                    ./images/desktop/work/box3-1110.jpg 3x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img
+                  src="./images/desktop/work/box3-370.jpg"
+                  alt="Користувач працює на планшеті"
+                  width="370"
+                  height="294"
+                  class="photo"
+                />
+              </picture>
               <h3 class="work__title">Дизайнерські рішення</h3>
             </li>
           </ul>
@@ -290,7 +347,10 @@
                   "
                   media="(min-width: 1200px)"
                 />
-                <img src="./images/mobile/team/product-designer-450.jpg" alt="Продукт-дизайнер" />
+                <img
+                  src="./images/mobile/team/product-designer-450.jpg"
+                  alt="Фото дизайнера продукту"
+                />
               </picture>
               <!-- <img
                 src="./images/desktop/team/product-designer-810.jpg"
@@ -407,10 +467,7 @@
                   "
                   media="(min-width: 1200px)"
                 />
-                <img
-                  src="./images/mobile/team/frontend-developer-450.jpg"
-                  alt="Фронт-ендр розробник"
-                />
+                <img src="./images/mobile/team/frontend-developer-450.jpg" alt="Фото розробника" />
               </picture>
               <!-- <img
                 src="./images/desktop/team/frontend-developer-810.jpg"
@@ -527,7 +584,7 @@
                   "
                   media="(min-width: 1200px)"
                 />
-                <img src="./images/mobile/team/marketing-450.jpg" alt="Маркетолог" />
+                <img src="./images/mobile/team/marketing-450.jpg" alt="Фото маркетолога" />
               </picture>
               <!-- <img
                 src="./images/desktop/team/marketing-810.jpg"
@@ -644,7 +701,10 @@
                   "
                   media="(min-width: 1200px)"
                 />
-                <img src="./images/mobile/team/ui-designer-450.jpg" alt="Графічний дизайнер" />
+                <img
+                  src="./images/mobile/team/ui-designer-450.jpg"
+                  alt="Фото дизайнера інтерфейсу"
+                />
               </picture>
               <!-- <img
                 src="./images/desktop/team/ui-designer-810.jpg"
