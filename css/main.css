@@ -328,17 +328,6 @@ h6 {
   padding: 0;
 }
 
-header,
-section,
-footer,
-.backdrop {
-  display: none;
-}
-
-.block {
-  display: block;
-}
-
 .section {
   padding: 60px 0;
   background-color: #ffffff;
