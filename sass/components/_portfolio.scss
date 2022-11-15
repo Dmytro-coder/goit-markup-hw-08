@@ -26,12 +26,12 @@
 }
 
 .portfolio__link {
-  transition: box-shadow $transition;
-
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
-  flex-direction: column;
+
+  transition: box-shadow $transition;
 
   &:hover,
   &:focus {
