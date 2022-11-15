@@ -16,15 +16,15 @@
   border: 1px solid #eeeeee;
   transition: box-shadow $transition;
 
-  &:not(:last-child) {
-    // margin-bottom: 30px;
-  }
+  // &:not(:last-child) {
+  //   margin-bottom: 30px;
+  // }
 
-  @media screen and (min-width: $mobile) {
-    &:not(:last-child) {
-      margin-bottom: 30px;
-    }
-  }
+  // @media screen and (min-width: $mobile) {
+  //   &:not(:last-child) {
+  //     margin-bottom: 30px;
+  //   }
+  // }
   // @media screen and (max-width: 767px) {
   //   &:not(:last-child) {
   //     margin-bottom: 30px;
