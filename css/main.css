@@ -1589,10 +1589,7 @@ img {
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1), -webkit-box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.portfolio__item:not(:last-child) {
-  margin-bottom: 30px;
-}
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 480px) {
   .portfolio__item:not(:last-child) {
     margin-bottom: 30px;
   }
@@ -1607,6 +1604,7 @@ img {
   .portfolio__item {
     -ms-flex-preferred-size: calc((100% - 60px) / 3);
         flex-basis: calc((100% - 60px) / 3);
+    width: 370px;
   }
 }
 
