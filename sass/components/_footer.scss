@@ -154,7 +154,7 @@
   margin-bottom: 20px;
   padding: 15px 16px;
   display: block;
-  width: 450px;
+  width: 100%;
   height: 50px;
   color: $primery-white-color;
   background-color: inherit;
@@ -179,6 +179,7 @@
 
   @media screen and (min-width: $tablet) and (max-width: 1199px) {
     margin: 0 auto 20px;
+    width: 450px;
   }
   @media screen and (min-width: $desktop) {
     width: 358px;
