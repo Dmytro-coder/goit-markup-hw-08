@@ -1604,7 +1604,6 @@ img {
   .portfolio__item {
     -ms-flex-preferred-size: calc((100% - 60px) / 3);
         flex-basis: calc((100% - 60px) / 3);
-    width: 370px;
   }
 }
 
