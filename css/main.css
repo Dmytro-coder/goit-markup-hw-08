@@ -992,6 +992,9 @@ img {
 }
 @media screen and (min-width: 1200px) {
   .footer__contact {
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
     margin-right: 70px;
   }
 }
