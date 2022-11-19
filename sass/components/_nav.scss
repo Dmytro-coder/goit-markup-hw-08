@@ -3,7 +3,7 @@
   gap: 95px;
   align-items: center;
   @media screen and (min-width: $tablet) {
-    margin-right: auto;
+    margin-left: 93px;
   }
 }
 
@@ -11,14 +11,9 @@
   display: none;
   @media screen and (min-width: $tablet) {
     display: flex;
-    margin-left: 93px;
     gap: 50px;
   }
 }
-
-// .site-nav__item:not(:last-child) {
-//   margin-right: 50px;
-// }
 
 .site-nav__link {
   display: block;
@@ -55,6 +50,7 @@
   display: none;
   @media screen and (min-width: $tablet) {
     display: block;
+    margin-left: auto;
   }
   @media screen and (min-width: $tablet) and (max-width: 1199px) {
     padding: 21px 0;
