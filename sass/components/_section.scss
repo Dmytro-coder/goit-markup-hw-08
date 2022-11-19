@@ -32,8 +32,13 @@
 .section__title {
   color: $title-text-color;
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
-  @include fonts-properties($fw: 700, $fs: 36px, $lh: 1.17, $ls: 0.03em);
+  @include fonts-properties($fw: 700, $fs: 28px, $lh: 1.17, $ls: 0.03em);
   text-align: center;
+
+  @media screen and (min-width: $desktop) {
+    @include fonts-properties($fw: 700, $fs: 36px, $lh: 1.17, $ls: 0.03em);
+    margin-bottom: 50px;
+  }
 }
